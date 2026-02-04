@@ -1,0 +1,359 @@
+{
+  "version": "1.2",
+  "updated_at": "2026-02-03T09:00:00.000000",
+  "current_focus": {
+    "goal_id": "webinar",
+    "goal_name": "Вебинар Нодуль 05.02 — 2 дня",
+    "days_without_progress": 0,
+    "streak": 2
+  },
+  "goals": {
+    "course": {
+      "name": "Запуск авторского курса по ИИ-автоматизации",
+      "target": "2 потока, 15-25 студентов, 400-600К",
+      "current": "Итоговое занятие проведено 30.01 ✅ Стратегия корп. обучения обсуждена с Алексеем",
+      "progress_percent": 55,
+      "trend": "stable",
+      "last_action_date": "2026-02-02",
+      "notes": "Поток 2 завершён. Решили развивать корп. обучение — готовим оффер для партнёров."
+    },
+    "webinars": {
+      "name": "Воронка через вебинары",
+      "target": "3-4 вебинара, 150+ участников",
+      "current": "Вебинар Нодуль 05.02 — осталось: демо ассистента, слайды",
+      "progress_percent": 45,
+      "trend": "at_risk",
+      "last_action_date": "2026-01-30",
+      "notes": "Описание готово. КРИТИЧНО: демо ассистента + слайды до 04.02. Осталось 2 дня."
+    },
+    "expertise": {
+      "name": "Экспертное позиционирование",
+      "target": "1 конференция, 1 кейс, ставка 12-15К/час",
+      "current": "Бонум этап 1 СДАН ✅ Этап 2: демо Задачи в среду",
+      "progress_percent": 85,
+      "trend": "positive",
+      "last_action_date": "2026-02-02",
+      "notes": "Этап 1 принят. Встреча с Василием Сергеевичем в среду — демо функционала Задачи."
+    },
+    "dissertation": {
+      "name": "Статья #1 для диссертации",
+      "target": "Подача в журнал к 15 февраля",
+      "current": "Статья отправлена руководителю 02.02 — ждём ОС",
+      "progress_percent": 65,
+      "trend": "stable",
+      "last_action_date": "2026-02-02",
+      "notes": "Финальная редактура завершена. Ждём обратную связь от научрука. Дедлайн 15.02 — 12 дней."
+    }
+  },
+  "patterns": {
+    "productive_days": [
+      "Wednesday",
+      "Thursday"
+    ],
+    "low_energy_days": [
+      "Monday",
+      "Sunday"
+    ],
+    "avg_tasks_per_day": 3,
+    "strategic_ratio": 0.45,
+    "common_blockers": [
+      "позднее начало дня",
+      "клиентская работа поглощает утро",
+      "многозадачность",
+      "реактивное поведение на входящие запросы",
+      "незаполненные рефлексии — теряется трекинг",
+      "проблемы с командой (выпадение программиста из процесса)"
+    ]
+  },
+  "pending_tasks": [
+    {
+      "id": "task_20260129_002",
+      "task": "Snitcher2Ava — MVP",
+      "origin_date": "2026-01-29",
+      "last_seen": "2026-02-03",
+      "status": "pending",
+      "mentions": ["2026-01-29", "2026-01-30", "2026-02-02", "2026-02-03"],
+      "context": "КРИТИЧНО: звонок с Ayomide 04.02. Нужен MVP: Zoho CRM + персонализированный email. Клиент недоволен, режим graceful exit."
+    },
+    {
+      "id": "task_20260129_001",
+      "task": "КП для Транзит-Дон",
+      "origin_date": "2026-01-29",
+      "last_seen": "2026-02-03",
+      "status": "pending",
+      "mentions": ["2026-01-29", "2026-01-30", "2026-02-02", "2026-02-03"],
+      "context": "клиентский проект, 5 дней"
+    }
+  ],
+  "detected_changes": [
+    {
+      "type": "reschedule",
+      "item": "Вебинар Нодуль",
+      "from": "2026-01-20",
+      "to": "2026-01-29",
+      "detected_date": "2026-01-20",
+      "impact": "high"
+    },
+    {
+      "type": "reschedule",
+      "item": "Вебинар Нодуль",
+      "from": "2026-01-29",
+      "to": "2026-02-05",
+      "detected_date": "2026-01-22",
+      "impact": "high"
+    },
+    {
+      "type": "completed",
+      "item": "Стрелла презентация",
+      "detected_date": "2026-01-22",
+      "impact": "positive"
+    },
+    {
+      "type": "completed",
+      "item": "Бонум ИИ-агент (этап 1)",
+      "detected_date": "2026-01-30",
+      "impact": "positive"
+    },
+    {
+      "type": "completed",
+      "item": "Документы Бонум отправлены",
+      "detected_date": "2026-01-29",
+      "impact": "positive"
+    },
+    {
+      "type": "completed",
+      "item": "Диссертация: иллюстрации к статье",
+      "detected_date": "2026-01-29",
+      "impact": "positive"
+    },
+    {
+      "type": "completed",
+      "item": "Диссертация: финальная редактура статьи",
+      "detected_date": "2026-02-02",
+      "impact": "positive"
+    },
+    {
+      "type": "completed",
+      "item": "Курс: итоговое занятие поток 2",
+      "detected_date": "2026-01-30",
+      "impact": "positive"
+    },
+    {
+      "type": "completed",
+      "item": "Вебинар: описание и план готовы",
+      "detected_date": "2026-01-30",
+      "impact": "positive"
+    },
+    {
+      "type": "issue",
+      "item": "Sokin: программист выпал из процесса",
+      "detected_date": "2026-02-02",
+      "impact": "high",
+      "resolution": "graceful exit with conditional retention"
+    },
+    {
+      "type": "completed",
+      "item": "Стратегия корп. обучения согласована с Алексеем",
+      "detected_date": "2026-02-02",
+      "impact": "positive"
+    }
+  ],
+  "plan_updates": [],
+  "strategy_suggestions": [
+    {
+      "date": "2026-01-22",
+      "type": "GOAL_AT_RISK",
+      "target": "dissertation",
+      "recommendation": "Заблокировать утро для PhD. Никаких созвонов до 10:00.",
+      "acted_upon": true
+    },
+    {
+      "date": "2026-01-22",
+      "type": "RECURRING_DELAY",
+      "target": "webinar_nodul",
+      "recommendation": "Зафиксировать финальную дату 05.02 или отменить.",
+      "acted_upon": true
+    },
+    {
+      "date": "2026-01-26",
+      "type": "ESCALATION",
+      "target": "dissertation",
+      "recommendation": "11 дней без прогресса. Завтра (27.01) строго по плану: 07:30-09:30 = только диссертация.",
+      "acted_upon": true
+    },
+    {
+      "date": "2026-01-27",
+      "type": "ESCALATION",
+      "target": "dissertation",
+      "recommendation": "12 дней без прогресса. 07:30-09:30 = диссертация каждый день. Цель: 9+ часов за неделю.",
+      "acted_upon": true
+    },
+    {
+      "date": "2026-02-02",
+      "type": "CELEBRATION",
+      "target": "january_results",
+      "recommendation": "Бонум этап 1 сдан, статья отправлена. Январь закрыт хорошо.",
+      "acted_upon": true
+    },
+    {
+      "date": "2026-02-02",
+      "type": "REBALANCE",
+      "target": "webinar",
+      "recommendation": "Вебинар 05.02 — главный приоритет недели. Демо ассистента нужно до среды.",
+      "acted_upon": null
+    },
+    {
+      "date": "2026-02-03",
+      "type": "DEADLINE_CRITICAL",
+      "target": "snitcher2ava",
+      "recommendation": "MVP к звонку с Ayomide 04.02. Закрыть сегодня — показать прогресс клиенту.",
+      "acted_upon": null
+    },
+    {
+      "date": "2026-02-03",
+      "type": "RECOVERY",
+      "target": "sokin_stress",
+      "recommendation": "После стресса с Sokin — фокус на зону контроля. MVP = конкретный результат = восстановление.",
+      "acted_upon": null
+    }
+  ],
+  "history": {
+    "interventions": [
+      {
+        "date": "2025-12-22",
+        "type": "FOCUS_REDIRECT",
+        "focus": "Отправить Главу 2 руководителю (30 минут)",
+        "followed": null
+      },
+      {
+        "date": "2026-01-09",
+        "type": "MOMENTUM",
+        "focus": "Первый черновик статьи (1.5-2 часа)",
+        "followed": true
+      },
+      {
+        "date": "2026-01-14",
+        "type": "FOCUS_REDIRECT",
+        "focus": "Экспорт статьи в Word + отправка научному руководителю (45 минут)",
+        "followed": false
+      },
+      {
+        "date": "2026-01-15",
+        "type": "FOCUS_REDIRECT",
+        "focus": "Экспорт статьи в Word + отправка научному руководителю (30-45 минут)",
+        "followed": true
+      },
+      {
+        "date": "2026-01-19",
+        "type": "CELEBRATION",
+        "focus": "Недельный обзор + подготовка к критической неделе",
+        "followed": null
+      },
+      {
+        "date": "2026-01-20",
+        "type": "FOCUS_REDIRECT",
+        "focus": "Работа над статьёй: анализ замечаний научрука (1.5 часа)",
+        "followed": false
+      },
+      {
+        "date": "2026-01-22",
+        "type": "ESCALATION",
+        "focus": "Связаться с научруком / начать Главу 3 самостоятельно (1.5 часа)",
+        "followed": null
+      },
+      {
+        "date": "2026-01-26",
+        "type": "ADAPTIVE",
+        "focus": "Воскресенье = отдых. Микро-действие: FUP научруку (5 минут)",
+        "followed": null
+      },
+      {
+        "date": "2026-01-27",
+        "type": "ESCALATION",
+        "focus": "Иллюстрации к статье + FUP научруку (07:30-09:30)",
+        "followed": true
+      },
+      {
+        "date": "2026-01-29",
+        "type": "MOMENTUM",
+        "focus": "Диссертация: продолжить работу над статьёй (07:30-09:30)",
+        "followed": null
+      },
+      {
+        "date": "2026-01-30",
+        "type": "DEADLINE_CRITICAL",
+        "focus": "Бонум: справочник + словарь (дедлайн ЗАВТРА)",
+        "followed": true
+      },
+      {
+        "date": "2026-02-02",
+        "type": "CELEBRATION",
+        "focus": "Snitcher2Ava — сценарий разработки (закрыть долг)",
+        "followed": false
+      },
+      {
+        "date": "2026-02-03",
+        "type": "DEADLINE_CRITICAL",
+        "focus": "Snitcher2Ava — MVP (звонок с Ayomide завтра)",
+        "followed": null
+      }
+    ],
+    "weekly_scores": [
+      {
+        "week": "2025-W51",
+        "strategic_ratio": 0.4,
+        "goals_progress": {
+          "course": 40,
+          "webinars": 30,
+          "expertise": 70,
+          "dissertation": 30
+        },
+        "notes": "Неделя 4. Правки внесены (17.12). Лекция проведена успешно (18.12). 3 активных клиента. PhD под угрозой — Глава 2 не отправлена."
+      },
+      {
+        "week": "2026-W02",
+        "strategic_ratio": 0.4,
+        "goals_progress": {
+          "course": 45,
+          "webinars": 35,
+          "expertise": 70,
+          "dissertation": 35
+        },
+        "notes": "Неделя 1 января. Новый старт. План января создан. Фокус на диссертации и Бонум."
+      },
+      {
+        "week": "2026-W03",
+        "strategic_ratio": 0.42,
+        "goals_progress": {
+          "course": 50,
+          "webinars": 40,
+          "expertise": 70,
+          "dissertation": 55
+        },
+        "notes": "Неделя 2 (13-19.01). Статья отправлена руководителю 15.01 ✓ Лекция курса проведена."
+      },
+      {
+        "week": "2026-W04",
+        "strategic_ratio": 0.38,
+        "goals_progress": {
+          "course": 50,
+          "webinars": 30,
+          "expertise": 75,
+          "dissertation": 55
+        },
+        "notes": "Неделя 3 (20-26.01). Диссертация в ESCALATION (11 дней без прогресса). Вебинар перенесён повторно. Стрелла ✓ Бонум ИИ-агент ✓"
+      },
+      {
+        "week": "2026-W05",
+        "strategic_ratio": 0.45,
+        "goals_progress": {
+          "course": 55,
+          "webinars": 40,
+          "expertise": 85,
+          "dissertation": 65
+        },
+        "notes": "Неделя 4 (27.01-02.02). Бонум этап 1 СДАН ✅ Статья отправлена научруку ✅ Курс: итоговое занятие ✅ Вебинар: описание готово ✅"
+      }
+    ]
+  }
+}
