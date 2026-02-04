@@ -21,7 +21,7 @@
 
 ```bash
 # Клонируйте в вашу рабочую директорию
-git clone https://github.com/USERNAME/second-brain-template.git ~/Documents/Obsidian Vault
+git clone https://github.com/USERNAME/second-brain-template.git ~/Documents/second-brain
 
 # Или в любую другую папку
 git clone https://github.com/USERNAME/second-brain-template.git ~/my-second-brain
@@ -30,7 +30,7 @@ git clone https://github.com/USERNAME/second-brain-template.git ~/my-second-brai
 ### 2. Запуск скрипта настройки
 
 ```bash
-cd ~/Documents/Obsidian Vault
+cd ~/Documents/second-brain
 chmod +x .scripts/setup.sh
 .scripts/setup.sh
 ```
