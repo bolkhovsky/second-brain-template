@@ -16,7 +16,7 @@ claude -p "Установи и настрой систему Second Brain из �
 
 ### Шаг 1: Определи целевую директорию
 
-Спроси пользователя, куда установить систему. По умолчанию: `~/Documents/WORK`
+Спроси пользователя, куда установить систему. По умолчанию: `~/Documents/Obsidian Vault`
 
 ```bash
 # Пример
@@ -124,7 +124,7 @@ chmod +x .scripts/second-brain.sh
 
 **Claude:** Начинаю установку Second Brain.
 
-1. **Куда установить?** (по умолчанию ~/Documents/WORK)
+1. **Куда установить?** (по умолчанию ~/Documents/Obsidian Vault)
 
 **User:** ~/my-brain
 

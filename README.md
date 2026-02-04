@@ -13,8 +13,8 @@ AI-ассистент для управления фокусом и страте
 ### 1. Клонируйте репозиторий
 
 ```bash
-git clone https://github.com/USERNAME/second-brain-template.git ~/Documents/WORK
-cd ~/Documents/WORK
+git clone https://github.com/USERNAME/second-brain-template.git ~/Documents/Obsidian Vault
+cd ~/Documents/Obsidian Vault
 ```
 
 ### 2. Запустите скрипт настройки
