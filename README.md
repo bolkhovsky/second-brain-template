@@ -10,14 +10,34 @@ AI-ассистент для управления фокусом и страте
 
 ## Быстрый старт
 
-### 1. Клонируйте репозиторий
+### Автоматическая установка (рекомендуется)
+
+Если у вас установлен [Claude Code CLI](https://claude.ai/claude-code), выполните одну команду:
 
 ```bash
-git clone https://github.com/USERNAME/second-brain-template.git ~/Documents/Obsidian Vault
-cd ~/Documents/Obsidian Vault
+claude -p "Установи и настрой систему Second Brain из https://github.com/bolkhovsky/second-brain-template"
 ```
 
-### 2. Запустите скрипт настройки
+Claude Code автоматически:
+- Клонирует репозиторий
+- Настроит рабочие файлы
+- Интерактивно поможет заполнить ваш манифест и цели
+- Создаст приватный GitHub репозиторий (опционально)
+- Запустит первый брифинг
+
+---
+
+### Ручная установка
+
+#### 1. Клонируйте репозиторий
+
+```bash
+mkdir ~/Documents/second-brain
+git clone https://github.com/USERNAME/second-brain-template.git ~/Documents/second-brain
+cd ~/Documents/second-brain
+```
+
+#### 2. Запустите скрипт настройки
 
 ```bash
 chmod +x .scripts/setup.sh
@@ -29,14 +49,14 @@ chmod +x .scripts/setup.sh
 - Создаст первую daily note
 - Подготовит репозиторий для вашего приватного GitHub
 
-### 3. Персонализируйте манифест
+#### 3. Персонализируйте манифест
 
 Отредактируйте `_brain/prompts/manifest.md` — замените пример на свой манифест:
 - Ваша философия бизнеса/жизни
 - Ключевые принципы
 - Цели и ценности
 
-### 4. Создайте приватный репозиторий
+#### 4. Создайте приватный репозиторий
 
 ```bash
 # Создайте приватный репозиторий на GitHub (например, obsidian-vault)
@@ -44,7 +64,7 @@ git remote add origin https://github.com/YOUR_USERNAME/obsidian-vault.git
 git push -u origin main
 ```
 
-### 5. Настройте obsidian-git (опционально)
+#### 5. Настройте obsidian-git (опционально)
 
 Если используете Obsidian:
 1. Установите плагин [obsidian-git](https://github.com/denolehov/obsidian-git)
