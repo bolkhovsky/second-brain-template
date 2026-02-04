@@ -24,3 +24,9 @@ node_modules/
 
 # Local scripts output
 .scripts/*.log
+
+# Personal data (keep in private repo)
+# Uncomment if you want to keep templates public but data private:
+# _daily/
+# _brain/state.json
+# _brain/log.md
