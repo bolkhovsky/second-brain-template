@@ -15,7 +15,7 @@ AI-ассистент для управления фокусом и страте
 Если у вас установлен [Claude Code CLI](https://claude.ai/claude-code), выполните одну команду:
 
 ```bash
-claude -p "Установи и настрой систему Second Brain из https://github.com/bolkhovsky/second-brain-template"
+claude "Установи и настрой систему Second Brain из https://github.com/bolkhovsky/second-brain-template"
 ```
 
 Claude Code автоматически:
