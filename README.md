@@ -1,5 +1,12 @@
 # Second Brain Agent
 
+📱 [Смотреть на YouTube](https://youtu.be/AOt_rIXAgVI)
+▶️ [Смотреть на RuTube](https://rutube.ru/video/9114f5c5c13ef7cea97485701c6da053/)
+📱 [Смотреть в VK Видео](https://vkvideo.ru/video-235948008_456239017)
+---
+
+
+
 AI-ассистент для управления фокусом и стратегического планирования.
 
 Система "Второго мозга" помогает:
